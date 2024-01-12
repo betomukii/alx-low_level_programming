@@ -45,5 +45,5 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		ptr1 = ptr1->next;
 		i++;
 	}
-	return (_1);
+	return (-1);
 }
