@@ -2,13 +2,13 @@
 
 /**
  * hash_table_print - Prints the hash table
- *  * @ht: Pointer to the hash table to be printed
- *   *
- *    * Description: Key/value pairs are printed in the order they appear
- *     *		in the array of the hash table.
- *      *
- *       * Return: Void
- *        */
+ * @ht: Pointer to the hash table to be printed
+ *
+ * Description: Key/value pairs are printed in the order they appear
+ *		in the array of the hash table.
+ *
+ * Return: Void
+ */
 void hash_table_print(const hash_table_t *ht)
 {
 	hash_node_t *node;
